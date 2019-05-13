@@ -2,12 +2,12 @@
 # PAD
 
 Tools to make pad patches work nicely. Also includes the functionality
-from the DISABLER plugin.
+from the "disabler" plugin.
 
-If you are playing, for example, piano with a bad beneath it you will
+If you are playing, for example, piano with a pad beneath it you will
 be playing the same note multiple times with the pedal held down. Some
 instruments retrigger the note every time it is pressed, causing the
-same note to layer up and become louder until the pedal is lifted. This
+same note to stack up and become louder until the pedal is lifted. This
 plugin will block a Note On message when the note has already been played
 with the pedal down.
 

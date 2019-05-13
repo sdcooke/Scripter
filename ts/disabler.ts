@@ -7,7 +7,7 @@ two instruments together whilst being able to switch between them).
 
 Also because only Note On messages are blocked, it can be used to seamlessly
 transition between instruments - when notes are lifted the message will get through.
-Also Control Change messages get through which means if you pushed the pedal
+Control Change messages will also get through which means if you pushed the pedal
 before enableing, the plugin received that message (MainStage layer bypass does
 not do that, which can be annoying).
 */
