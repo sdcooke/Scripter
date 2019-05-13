@@ -1,0 +1,26 @@
+{
+    "name": "scripter",
+    "version": "0.0.1",
+    "author": "Sam Cooke",
+    "license": "MIT",
+    "private": true,
+    "devDependencies": {
+        "@babel/core": "7.4.3",
+        "@babel/plugin-proposal-class-properties": "7.4.0",
+        "@babel/preset-env": "7.4.3",
+        "@babel/preset-typescript": "7.3.3",
+        "@types/jest": "24.0.11",
+        "@types/node": "11.13.6",
+        "babel-jest": "24.7.1",
+        "fs-extra": "7.0.1",
+        "jest": "24.7.1",
+        "jscodeshift": "0.6.3",
+        "prettier": "1.17.0",
+        "typescript": "3.4.4"
+    },
+    "scripts": {
+        "test": "jest ./ts/**/*",
+        "test-watch": "yarn test --watch",
+        "build": "tsc && node ./build.js"
+    }
+}
