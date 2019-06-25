@@ -11,6 +11,21 @@ export class MidiEvent {
     send() {
         this.sent = true;
     }
+
+    sendAfterMilliseconds(ms: number) {}
+
+    sendAtBeat(beat: number) {}
+
+    trace() {}
+
+    toString() {
+        return "";
+    }
+
+    channel = 1;
+    beatPos = 1;
+    articulationID = 1;
+
 }
 
 export const Pitch = {
